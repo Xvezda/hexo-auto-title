@@ -44,6 +44,6 @@ API_SEC="발급받은 API Client Secret 값"
 ### More Information
 * 에러가 발생하는 경우 curl, python3, awk가 설치 되어 있는지 확인하세요.
 * 파파고™, 네이버™는 NAVER㈜의 등록상표입니다.
-* [hexo](https://github.com/hexojs/hexo)
-[NAVER Developers](https://developers.naver.com)
+* [NAVER Developers](https://developers.naver.com)
+* [Hexo](https://github.com/hexojs/hexo)
 
