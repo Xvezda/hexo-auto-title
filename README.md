@@ -36,14 +36,21 @@ API_ID="발급받은 API Client ID 값"
 API_SEC="발급받은 API Client Secret 값"  
 
 ### 실행 & 포스팅
+
 ```sh
 # 로드가 완료되면 편집기가 뜨면서 글을 작성할 수 있습니다.
 ./autotitle.sh "한글 포스팅 제목"
 ```
 
 ### More Information
-* 에러가 발생하는 경우 curl, python3, awk가 설치 되어 있는지 확인하세요.
-* 파파고™, 네이버™는 NAVER㈜의 등록상표입니다.
-* [NAVER Developers](https://developers.naver.com)
-* [Hexo](https://github.com/hexojs/hexo)
-* [GitHub Pages](https://pages.github.com/)
+
+- 에러가 발생하는 경우 curl, python3, awk가 설치 되어 있는지 확인하세요.
+- 파파고™, 네이버™는 NAVER㈜의 등록상표입니다.
+- [NAVER Developers](https://developers.naver.com)
+- [Hexo](https://github.com/hexojs/hexo)
+- [GitHub Pages](https://pages.github.com/)
+
+
+## License
+
+MIT
