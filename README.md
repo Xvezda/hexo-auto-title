@@ -9,12 +9,12 @@ GitHub Pages에 호스팅 할 때 인코딩 호환 문제로 에러가 뜨지 �
 
 Dependencies
 ------------
-* [네이버 개발자 센터](https://developers.naver.com/)에서 파파고 오픈 API키를 발급 받으셔야 합니다.  
+* [네이버 개발자 센터](https://developers.naver.com/)에서 파파고 오픈 API키를 발급 받으셔야 합니다.
 * curl, python3, awk 가 설치 되어 있어야 합니다.
 
-### Usage
+## Usage
 
-#### 설치 & 세팅
+### 설치 & 세팅
 ```sh
 git clone https://github.com/Xvezda/hexo-auto-title.git # 혹은 zip 다운로드
 cd hexo-auto-title
@@ -23,29 +23,27 @@ cd hexo-auto-title
 chmod +x autotitle.sh
 
 mv autotitle.sh "hexo init으로 생성한 폴더경로"
+
 cd "hexo init으로 생성한 폴더경로"
 ```
 
 실행 하기 전에 autotitle.sh 파일을 편집기로 열어,
 가장 위 EDITOR, API_ID, API_SEC 변수를 입력하여 저장하셔야 합니다.
 
-ex)
-EDITOR="vim" # 포스팅 작성에 vim 편집기 사용
-API_ID="발급받은 API Client ID 값"
-API_SEC="발급받은 API Client Secret 값"
+ex)  
+EDITOR="vim" # 포스팅 작성에 vim 편집기 사용  
+API_ID="발급받은 API Client ID 값"  
+API_SEC="발급받은 API Client Secret 값"  
 
-#### 실행 & 포스팅
+### 실행 & 포스팅
 ```sh
 # 로드가 완료되면 편집기가 뜨면서 글을 작성할 수 있습니다.
 ./autotitle.sh "한글 포스팅 제목"
 ```
 
-### 기타
+### More Information
 * 에러가 발생하는 경우 curl, python3, awk가 설치 되어 있는지 확인하세요.
 * 파파고™, 네이버™는 NAVER㈜의 등록상표입니다.
-
-### 링크
-
-[hexo](https://github.com/hexojs/hexo)
-
+* [hexo](https://github.com/hexojs/hexo)
 [NAVER Developers](https://developers.naver.com)
+
