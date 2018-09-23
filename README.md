@@ -46,4 +46,4 @@ API_SEC="발급받은 API Client Secret 값"
 * 파파고™, 네이버™는 NAVER㈜의 등록상표입니다.
 * [NAVER Developers](https://developers.naver.com)
 * [Hexo](https://github.com/hexojs/hexo)
-
+* [GitHub Pages](https://pages.github.com/)
