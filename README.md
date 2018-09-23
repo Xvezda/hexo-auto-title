@@ -42,7 +42,7 @@ API_SEC="발급받은 API Client Secret 값"
 ./autotitle.sh "한글 포스팅 제목"
 ```
 
-### More Information
+## More Information
 
 - 에러가 발생하는 경우 curl, python3, awk가 설치 되어 있는지 확인하세요.
 - 파파고™, 네이버™는 NAVER㈜의 등록상표입니다.
